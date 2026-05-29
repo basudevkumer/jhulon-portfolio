@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Figtree:wght@300;400;500;600;700;800;900&family=Oxanium:wght@300;400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-dark: #0a0a0a;
+  --breakpoint-xs: 359px;
+  --breakpoint-bigMobile: 390px;
+  --font-figtree: "Figtree", sans-serif;
+  --font-audiowide: "Audiowide", sans-serif;
+  --font-oxanium: "Oxanium", sans-serif;
+  --color-background: white;
+  --color-secondary: #000000aa;
+  --color-accent: #07c42c; /* default */
+}
+
+.dark {
+  --color-primary-dark: #0a0a0a;
+  --color-secondary: #ffffffaa;
+  @apply text-white;
+}
+
+/* Accent themes */
+.theme-blue {
+  --color-accent: #3b82f6;
+}
+
+.theme-red {
+  --color-accent: #ef4444;
+}
+
+.theme-green {
+  --color-accent: #07c42c;
+}
+
+.theme-purple {
+  --color-accent: #a855f7;
+}
+
+.theme-orange {
+  --color-accent: #f97316;
+}
+
+.theme-yellow {
+  --color-accent: #fde047;
+}
+
+@layer loader {
+  .loader {
+    --ANIMATION-DELAY-MULTIPLIER: 70ms;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .loader span {
+    padding: 0;
+    margin: 0;
+    letter-spacing: -5rem;
+    animation-delay: 0s;
+    transform: translateY(4rem);
+    animation: hideAndSeek 1s alternate infinite cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  .loader .l {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 0);
+  }
+  .loader .o {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 1);
+  }
+  .loader .a {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 2);
+  }
+  .loader .d {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 3);
+  }
+  .loader .ispan {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 4);
+  }
+  .loader .n {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 5);
+  }
+  .loader .g {
+    animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 6);
+  }
+  .letter {
+    width: fit-content;
+    height: 3rem;
+  }
+  .i {
+    margin-inline: 5px;
+  }
+  @keyframes hideAndSeek {
+    0% {
+      transform: translateY(4rem);
+    }
+    100% {
+      transform: translateY(0rem);
+    }
+  }
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
