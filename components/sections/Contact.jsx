@@ -16,38 +16,38 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const links = [
   {
     id: 1,
-    name: "mdnadil50@gmail.com",
-    href: "mailto:mdnadil50@gmail.com",
+    name: "jhulonkumar888@gmail.com",
+    href: "mailto:jhulonkumar888@gmail.com",
     icon: <FaEnvelope />,
   },
   {
     id: 2,
     name: "Facebook",
-    href: "https://www.facebook.com/mdhossain.dev",
+    href: "https://www.facebook.com/j.k.r.y.432382",
     icon: <FaFacebookF />,
   },
   {
     id: 3,
     name: "Github",
-    href: "https://github.com/Mohammad-Nadil",
+    href: "https://github.com/basudevkumer",
     icon: <FaGithub />,
   },
   {
     id: 4,
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/mdhossain-dev",
+    href: "https://www.linkedin.com/in/jhulonkumar",
     icon: <FaLinkedinIn />,
   },
   {
     id: 5,
-    name: "+8801760152349",
-    href: "tel:+8801760152349",
+    name: "+8801854555136",
+    href: "tel:+8801854555136",
     icon: <FaPhone />,
   },
   {
     id: 6,
     name: "WhatsApp",
-    href: "https://wa.me/8801760152349",
+    href: "https://wa.me/8801854555136",
     icon: <FaWhatsapp />,
   },
 ];

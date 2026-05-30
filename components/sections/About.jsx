@@ -1,24 +1,43 @@
 import React from "react";
 import Container from "@/components/layout/Container";
-import { FaCode, FaServer, FaLayerGroup } from "react-icons/fa6";
+// import { FaCode, FaServer, FaLayerGroup } from "react-icons/fa6";
+import { FaCode, FaPaintBrush, FaBolt } from "react-icons/fa";
 import Header from "@/components/layout/Header";
 
 const About = () => {
+  // const skills = [
+  //   {
+  //     title: "Frontend Engineering",
+  //     desc: "building fast, scalable and modern web applications with React, Next.js and Node.js",
+  //     icon: <FaCode />,
+  //   },
+  //   {
+  //     title: "Backend Development",
+  //     desc: "Developing secure and efficient APIs using Node.js, Express and MongoDB for full-stack applications.",
+  //     icon: <FaServer />,
+  //   },
+  //   {
+  //     title: "Full Stack Projects",
+  //     desc: "Creating complete MERN stack applications from UI to backend with real-world performance and scalability.",
+  //     icon: <FaLayerGroup />,
+  //   },
+  // ];
+
   const skills = [
     {
-      title: "Frontend Engineering",
-      desc: "building fast, scalable and modern web applications with React, Next.js and Node.js",
+      title: "Frontend Development",
+      desc: "Engineering scalable React.js and Next.js applications with TypeScript — built on reusable component systems, strict type safety and modern rendering strategies.",
       icon: <FaCode />,
     },
     {
-      title: "Backend Development",
-      desc: "Developing secure and efficient APIs using Node.js, Express and MongoDB for full-stack applications.",
-      icon: <FaServer />,
+      title: "UI & Design Implementation",
+      desc: "Crafting polished, accessible UI with Tailwind CSS, shadcn/ui and Framer Motion — component-driven architecture with consistent design systems.",
+      icon: <FaPaintBrush />,
     },
     {
-      title: "Full Stack Projects",
-      desc: "Creating complete MERN stack applications from UI to backend with real-world performance and scalability.",
-      icon: <FaLayerGroup />,
+      title: "Performance Optimization",
+      desc: "Delivering production-grade performance with SSR, ISR, caching strategies, optimized assets and 95+ Lighthouse scores.",
+      icon: <FaBolt />,
     },
   ];
 
@@ -41,19 +60,28 @@ const About = () => {
 
                 <p className="text-base sm:text-lg md:text-xl font-medium  max-w-2xl leading-snug">
                   I'm a{" "}
+                  <span className="text-accent font-semibold">
+                    Frontend Developer
+                  </span>{" "}
+                  from Dhaka — specializing in React.js, Next.js & TypeScript,
+                  with a strong emphasis on clean UI architecture and scalable
+                  rendering patterns.
+                </p>
+                {/* <p className="text-base sm:text-lg md:text-xl font-medium  max-w-2xl leading-snug">
+                  I'm a{" "}
                   <span className=" text-accent font-semibold">
                     Full Stack MERN Developer
                   </span>{" "}
                   from Dhaka, building fast, scalable and modern web
                   applications with React, Next.js and Node.js.
-                </p>
+                </p> */}
               </div>
 
               <div className="w-4/12 xl:w-3/12 relative hidden lg:flex items-center justify-center dark:brightness-75 ">
                 <div className="aspect-4/5 rounded-xl overflow-hidden group relative">
                   <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10" />
 
-                  <img 
+                  <img
                     src="/image/myself.png"
                     alt="Nadil"
                     className="w-full h-full object-cover transition duration-700 scale-105 group-hover:scale-100"

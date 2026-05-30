@@ -7,11 +7,17 @@ import Image from "next/image";
 const Hero = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
   const name = "jhulon";
+  // const profession = [
+  //   "front-end developer",
+  //   "back-end developer",
+  //   "full stack developer",
+  //   "MERN stack developer",
+  // ];
   const profession = [
     "front-end developer",
-    "back-end developer",
-    "full stack developer",
-    "MERN stack developer",
+    "React JS Developer",
+    "Next JS Developer",
+    "UI/UX Developer",
   ];
   const professionMobile = ["frontend ", "backend ", "MERN stack "];
 

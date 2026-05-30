@@ -3,26 +3,59 @@ import React, { useState } from "react";
 import Container from "@/components/layout/Container";
 import Header from "@/components/layout/Header";
 
+// const faqData = [
+//   {
+//     question: "What technologies do you specialize in?",
+//     answer:
+//       "I specialize in the MERN stack (MongoDB, Express, React, Node.js) along with Next.js and Tailwind CSS for building high-performance web applications. My focus is on creating scalable architectures with editorial-grade user interfaces.",
+//   },
+//   {
+//     question: "Do you take on freelance projects?",
+//     answer:
+//       "Yes, I am available for freelance opportunities ranging from single-page landing pages to complex full-stack web applications. I prefer projects that challenge the status quo of digital experiences.",
+//   },
+//   {
+//     question: "How can we start a project together?",
+//     answer:
+//       "You can reach out via the contact form or email me directly. I usually respond within 24 hours to discuss project details, technical requirements, and potential timelines.",
+//   },
+//   {
+//     question: "Are you open to full-time remote positions?",
+//     answer:
+//       "Absolutely! I am always looking for exciting opportunities to contribute to innovative teams globally. I thrive in asynchronous environments that value code quality and design precision.",
+//   },
+// ];
+
 const faqData = [
   {
-    question: "What technologies do you specialize in?",
+    question: "Can you build a complete frontend from scratch?",
     answer:
-      "I specialize in the MERN stack (MongoDB, Express, React, Node.js) along with Next.js and Tailwind CSS for building high-performance web applications. My focus is on creating scalable architectures with editorial-grade user interfaces.",
+      "Yes — from architecture planning to Vercel deployment. I structure projects with reusable component systems, scalable folder structure and TypeScript from day one, so the codebase stays maintainable as it grows.",
   },
   {
-    question: "Do you take on freelance projects?",
+    question: "How do you handle performance in production?",
     answer:
-      "Yes, I am available for freelance opportunities ranging from single-page landing pages to complex full-stack web applications. I prefer projects that challenge the status quo of digital experiences.",
+      "I use Next.js rendering strategies (SSR, SSG, ISR), dynamic imports, next/image, caching and Brotli compression. I measure everything with Lighthouse and Web Vitals — targeting 90+ scores before shipping.",
   },
   {
-    question: "How can we start a project together?",
+    question: "Do you write clean, maintainable code?",
     answer:
-      "You can reach out via the contact form or email me directly. I usually respond within 24 hours to discuss project details, technical requirements, and potential timelines.",
+      "Yes — I follow component-driven architecture, strict TypeScript typing, meaningful naming conventions and keep components small and reusable. I also use ESLint and Prettier to enforce consistency across the codebase.",
   },
   {
-    question: "Are you open to full-time remote positions?",
+    question: "Can you collaborate with a design or backend team?",
     answer:
-      "Absolutely! I am always looking for exciting opportunities to contribute to innovative teams globally. I thrive in asynchronous environments that value code quality and design precision.",
+      "Absolutely. I work from Figma handoffs, communicate via GitHub PRs and have experience leading 5–6 member teams — handling task assignment, merge conflicts and maintaining a clean main branch.",
+  },
+  {
+    question: "How do you integrate APIs on the frontend?",
+    answer:
+      "I use TanStack Query for server state, Axios for HTTP requests and Zod for response validation — keeping data fetching predictable, type-safe and easy to debug.",
+  },
+  {
+    question: "Are you available for freelance or full-time work?",
+    answer:
+      "Yes — open to both. Freelance projects, remote roles or on-site in Dhaka. I respond within 24 hours and prefer a quick intro call to understand the project before starting.",
   },
 ];
 

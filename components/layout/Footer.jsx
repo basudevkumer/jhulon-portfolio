@@ -20,8 +20,9 @@ const Footer = () => {
             <Logo className={" w-5 md:w-7"} />
 
             <p className="text-sm text-secondary/60 leading-relaxed max-w-xs">
-              Frontend Developer focused on building modern, responsive and
-              user-friendly web experiences.
+              Frontend Developer focused on clean architecture, scalable UI
+              systems and shipping production-ready React & Next.js
+              applications.
             </p>
           </div>
 
@@ -35,19 +36,19 @@ const Footer = () => {
               {[
                 {
                   icon: <FaGithub />,
-                  link: "https://github.com/Mohammad-Nadil",
+                  link: "https://github.com/basudevkumer",
                 },
                 {
                   icon: <FaLinkedinIn />,
-                  link: "https://www.linkedin.com/in/mdhossain-dev",
+                  link: "https://www.linkedin.com/in/jhulonkumar",
                 },
                 {
                   icon: <FaFacebookF />,
-                  link: "https://www.facebook.com/mdhossain.dev",
+                  link: "https://www.facebook.com/j.k.r.y.432382",
                 },
                 {
                   icon: <FaWhatsapp />,
-                  link: "https://wa.me/8801760152349",
+                  link: "https://wa.me/8801854555136",
                 },
               ].map((s, i) => (
                 <a
@@ -67,7 +68,7 @@ const Footer = () => {
 
         {/* ─── BOTTOM BAR ─── */}
         <div className="border-t border-black/10 dark:border-white/10 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-secondary/50">
-          <p>© {new Date().getFullYear()} Nadil. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Jhulon. All rights reserved.</p>
 
           <p className="text-center">
             Built with ❤️ using Next.js & Tailwind CSS
