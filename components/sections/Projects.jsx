@@ -10,13 +10,22 @@ const filters = [
   "All",
   "Client Work",
   "Frontend",
-  "Fullstack",
   "Tailwind",
   "React",
   "Next.js",
-  "Node",
-  "MongoDB",
+  "TypeScript",
 ];
+// const filters = [
+//   "All",
+//   "Client Work",
+//   "Frontend",
+//   "Fullstack",
+//   "Tailwind",
+//   "React",
+//   "Next.js",
+//   "Node",
+//   "MongoDB",
+// ];
 
 //backend  firebase
 
