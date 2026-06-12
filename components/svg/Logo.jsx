@@ -1,16 +1,27 @@
 "use client";
 
-export default function Logo({ className }) {
+export default function Logo({ className = "" }) {
   return (
     <svg
-      viewBox="0 0 135 135"
+      viewBox="0 0 200 200"
       xmlns="http://www.w3.org/2000/svg"
-      className={` text-accent ${className}`}
+      className={className}
     >
-      <path
-        d="M13.5 0H48L110.5 62.5V0H135V121.726L13.5 0L0 13.5L122 135H87L24.5 72.5V135H0V13.5L13.5 0Z"
-        fill="currentColor"
-      />
+      <g
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path d="M100 15L170 55V145L100 185L30 145V55Z" />
+
+        <path d="M70 55V120C70 140 60 150 40 150" />
+
+        <path d="M105 55V145" />
+        <path d="M105 100L145 55" />
+        <path d="M105 100L150 145" />
+      </g>
     </svg>
   );
 }
