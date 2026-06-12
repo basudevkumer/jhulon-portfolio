@@ -4,7 +4,7 @@ import Header from "@/components/layout/Header";
 import { skills } from "@/lib/data";
 
 const Skills = () => {
-  return (
+  return (  
     <section
       id="skills"
       className="py-16 md:py-24 bg-white/60 dark:bg-primary-dark/60  "
