@@ -31,7 +31,7 @@ const Hero = () => {
             placeholder="blur"
             alt="placeholder"
             onLoad={() => setImgLoaded(true)}
-            className={`dark:brightness-75 duration-300  h-full object-cover rounded sm:rounded-xl dark:grayscale-100 transition-opacity ${imgLoaded ? "opacity-100" : "opacity-0"}`}
+            className={` duration-300  h-full object-cover rounded sm:rounded-xl  transition-opacity ${imgLoaded ? "opacity-100" : "opacity-0"}`}
           />
         </div>
         <h1
