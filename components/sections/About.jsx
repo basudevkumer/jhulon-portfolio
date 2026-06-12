@@ -82,8 +82,8 @@ const About = () => {
                   <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10" />
 
                   <img
-                    src="/image/myself.png"
-                    alt="Nadil"
+                    src="/image/myself.jpg"
+                    alt="jhulon"
                     className="w-full h-full object-cover transition duration-700 scale-105 group-hover:scale-100"
                   />
 
