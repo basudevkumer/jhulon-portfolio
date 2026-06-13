@@ -19,7 +19,7 @@ const Hero = () => {
     "Next JS Developer",
     "UI/UX Developer",
   ];
-  const professionMobile = ["frontend ", "backend ", "MERN stack "];
+  const professionMobile = ["Frontend", "React", "Next.js", "UI/UX"];
 
   return (
     <section id="hero" className=" py-10 sm:py-20 lg:py-30 relative">
